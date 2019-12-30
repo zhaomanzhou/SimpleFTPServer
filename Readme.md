@@ -1,4 +1,4 @@
-a small remote backup system with a simple protocol to exchange information between server and
+A small remote backup system with a simple protocol to exchange information between server and
 client. With this backup system, you can use the client to list whatever files that have been stored in the
 remote server’s backup folder. You can also send a local file to be stored in that backup folder on the server.
 If you do not want a file any more, you have the client send command to remove that files from the server’s
@@ -19,7 +19,7 @@ quit the client
 -shutdown
 shutdown the server
 
-#build it
+# build it
 
 `cmake CmakeLists.txt`
 `make`
